@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+button{
+    border: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(54, 45, 158);
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    margin: 0;
+    color: white;
+}
+.co{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.show {
+    /* display: block; */
+    visibility: visible;
+}
+
+.hidden{
+    /* display: none; */
+    visibility: hidden;
+}
+#popup{
+    width: 30vh;
+    background-color: #333;
+    border-radius: 6px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+}
